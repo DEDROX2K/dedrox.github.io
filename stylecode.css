@@ -1,0 +1,376 @@
+.red-tri {
+  -webkit-animation: spin 30s linear infinite;
+  margin-inline: auto;
+  z-index: -1;
+  position: absolute;
+  margin-top: 116px;
+  width: 200px;
+}
+
+.red-trir {
+  -webkit-animation: spin 30s linear infinite;
+  max-width: fit-content;
+  margin-inline: auto;
+  z-index: -1;
+  position: absolute;
+  right: 0%;
+  margin-top: 116px;
+}
+
+.red-tri:hover,
+.red-trir:hover {
+  -webkit-animation: spin 3s linear infinite;
+}
+
+.card {
+  border: 0px;
+}
+
+.card:hover {
+  margin-top: 10px;
+  transition: 1s;
+  cursor: url(images/Handcur.png);
+  box-shadow: 1px 1px 500px rgb(255, 237, 134);
+  border-radius: 20px;
+}
+
+.redtrim {
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: spin 1s linear infinite;
+  overflow: hidden;
+  position: absolute;
+}
+
+
+
+.featurette-heading {
+  padding-top: 20%;
+  font-family: chee;
+}
+
+.commenttxt {
+  font-family: chee;
+  text-align: center;
+}
+
+.call {
+  padding: 20px;
+  background-color: #f0f0cc;
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 40px 0 rgba(79, 65, 32, 0.45);
+  border-bottom: 2px solid #fffcca;
+  border-right: 3px solid #fff8e6;
+}
+
+.bodytex {
+  text-align: center;
+  font-size: x-large;
+  font-family: cheelight;
+  margin: 30px;
+}
+
+
+
+/* Buzz */
+@-webkit-keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+@keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+.hvr-buzz {
+  padding: 20px;
+  background-color: #f3f3d1;
+  border: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 1px 1px 40px 0 rgba(79, 65, 32, 0.45);
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+}
+
+.hvr-buzz:hover,
+.hvr-buzz:focus,
+.hvr-buzz:active {
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: #00AB6C;
+  border: #048f5c;
+  box-shadow: 1px 1px 90px 0 rgb(81, 159, 100);
+}
+
+.spinner-grow {
+  animation-duration: 2s;
+  padding: 12px;
+  color: #01ab6d;
+  width: 100%;
+}
+
+.perdestext {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  color: #78ac00;
+}
+
+.imcont {
+  clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z');
+  align-items: center;
+  box-shadow: #000000;
+}
+
+.h1 {
+  font-family: chee;
+}
+
+
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+.wrapper {
+  margin: 50px auto;
+  width: 480px;
+  height: 200px;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  -webkit-box-shadow: 16px 20px 100px rgb(201 228 141 / 40%);
+  -moz-box-shadow: 16px 20px 100px rgb(201 228 141 / 40%);
+  box-shadow: 16px 20px 100px rgb(201 228 141 / 40%);
+  position: relative;
+  z-index: 90;
+}
+
+.ribbon-wrapper-green {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.ribbon-green {
+  font: bold 15px Sans-Serif;
+  color: #050404;
+  text-align: center;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #BFDC7A;
+  color: #1f2a06;
+}
+
+.rotatory-img {
+  top: 0%;
+  left: 0%;
+  -webkit-animation: spin 5s linear infinite;
+  position: absolute;
+  right: 0%;
+}
+
+.mini-rotatory-img {
+  overflow: hidden;
+  -webkit-animation: spin 5s linear infinite;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
+.mini-rotatory-imgr {
+  overflow: hidden;
+  -webkit-animation: spin 5s linear infinite;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 0%;
+}
+
+.baktotop {
+  text-align: center;
+  animation: bobbing 3s infinite ease-in-out;
+  cursor: url(images/Handcur.png);
+}
+
+@keyframes bobbing {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+footer {
+  background-size: cover;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 0px;
+
+
+  position: staticx;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f0f0cc;
+  overflow-x: hidden;
+  cursor: url(images/cur.png), auto;
+}
+
+button:hover,
+.baktotop :hover {
+  cursor: url(images/Handcur.png), auto;
+}
+
+@font-face {
+  font-family: chee;
+  src: url('Fonts/CheltenhamStdBold.otf');
+}
+
+@font-face {
+  font-family: cheelight;
+  src: url('Fonts/CheltenhamStdLight.otf');
+}
+
+.btnnav {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 23px;
+
+  background-color: #f0f0cc;
+  border-color: #01ab6d;
+  border-top-width: 20px;
+  transition: color #004944 1s ease-in-out, background-color 1s ease-in-out;
+  border-radius: 0.2rem;
+
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.btnnav:hover {
+  transform: translateY(-10px);
+  border-color: #048f5c;
+  background-color: #00AB6C;
+  mix-blend-mode: difference;
+  transition: 1s;
+  cursor: url(images/Handcur.png);
+  border-radius: 1rem;
+}
+
+.navtext {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  float: right;
+}
+
+.logotext,
+.logotexttopp {
+  font-family: 'chee';
+  text-align: center;
+  font-size: 90px;
+  padding: 0%;
+
+  cursor: url(images/Handcur.png);
+  color: #01ab6d;
+}
+
+.logotext:hover {
+  filter: blur(100px);
+  transition: 20s;
+}
+
+
+
+
+
+
+/* media starts here */
+
+@media screen and (width < 769px) {
+  .btnnav {
+    font-size: 16px;
+  }
+
+  .logotext {
+    font-size: 60px;
+
+  }
+
+  .btnnav {
+    font-weight: bolder;
+
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+  .logotexttopp {
+    font-size: 60px;
+  }
+}
+
+@media screen and (width < 426px) {
+
+  .red-tri,
+  .red-trir {
+    display: none;
+  }
+
+  .btnnav {
+    border-top-width: 10px;
+    margin-top: 10px;
+
+  }
+}

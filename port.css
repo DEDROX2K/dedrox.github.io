@@ -1,0 +1,451 @@
+.desktop-1,
+.desktop-1 * {
+    box-sizing: border-box;
+}
+
+.desktop-1 {
+    background: #1e49a5;
+    height: 1422px;
+    position: relative;
+    overflow: hidden;
+}
+
+.topnav {
+    background: #101011;
+    padding: 26px 272px 26px 294px;
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    row-gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    height: 77.91px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.btmnav {
+    background: #fef8ee;
+    padding: 36px 88px 36px 88px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    row-gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 271.38px;
+    position: absolute;
+    left: 0px;
+    top: 77.91px;
+}
+
+.nav-info {
+    display: flex;
+    flex-direction: row;
+    gap: 65.98px;
+    row-gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.logo-and-name {
+    display: flex;
+    flex-direction: row;
+    gap: 9.75px;
+    row-gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.vector {
+    flex-shrink: 0;
+    height: 53.46px;
+    position: relative;
+    overflow: visible;
+}
+
+.raghav-prasanna {
+    color: #000000;
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    position: relative;
+}
+
+.moto {
+    display: flex;
+    flex-direction: column;
+    gap: 11.25px;
+    row-gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.moto2 {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.simple-work-on-the-users-experience {
+    color: #000000;
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.in-detail-what-do-you-do {
+    display: flex;
+    flex-direction: column;
+    gap: 11.25px;
+    row-gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.in-detail-what-do-you-do2 {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.product-design-ux-design-branding-consulting {
+    color: #000000;
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    position: relative;
+}
+
+.part-time-works {
+    display: flex;
+    flex-direction: column;
+    gap: 11.25px;
+    row-gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.part-time-works2 {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+._3-d-artist-game-designer-jnr-unity-developer-artwork-and-3-d-printing {
+    color: #000000;
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.working-for-how-long {
+    display: flex;
+    flex-direction: column;
+    gap: 11.25px;
+    row-gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 186.71px;
+    position: relative;
+}
+
+.working-for-how-long2 {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.ive-been-in-the-industry-for-4-5-years {
+    color: #000000;
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame-7 {
+    display: flex;
+    flex-direction: row;
+    row-gap: 0px;
+    align-items: center;
+    justify-content: space-between;
+    width: 1238.79px;
+    position: absolute;
+    left: 151.98px;
+    top: 1025.57px;
+}
+
+.say-helhello-raghavprasanna-2000-gmail-com {
+    color: #fef8ee;
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    position: relative;
+}
+
+.say-helhello-raghavprasanna-2000-gmail-com-span {
+    color: #fef8ee;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+}
+
+.say-helhello-raghavprasanna-2000-gmail-com-span2 {
+    color: #fef8ee;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.say-helhello-https-www-instagram-com-dedrox-hl-en {
+    color: #fef8ee;
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    position: relative;
+}
+
+.say-helhello-https-www-instagram-com-dedrox-hl-en-span {
+    color: #fef8ee;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+}
+
+.say-helhello-https-www-instagram-com-dedrox-hl-en-span2 {
+    color: #fef8ee;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+.articles {
+    color: #fef8ee;
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.projects {
+    color: #fef8ee;
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+}
+
+._3-d-game-design {
+    color: #fef8ee;
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.about {
+    color: #fef8ee;
+    text-align: left;
+    font-family: "Archivo-Regular", sans-serif;
+    font-size: 17.995773315429688px;
+    line-height: 101.5%;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.group-23 {
+    position: absolute;
+    inset: 0;
+}
+
+.rectangle-385 {
+    background: #f8ecd5;
+    width: 6.94px;
+    height: 152.26px;
+    position: absolute;
+    left: 13.88px;
+    top: 806.06px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(-1, 1);
+}
+
+.rectangle-389 {
+    background: #fef8ee;
+    width: 6.94px;
+    height: 152.26px;
+    position: absolute;
+    left: 6.94px;
+    top: 806.06px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(-1, 1);
+}
+
+.rectangle-396 {
+    background: #1e49a5;
+    width: 13.88px;
+    height: 152.26px;
+    position: absolute;
+    left: 13.88px;
+    top: 653.8px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(-1, 1);
+}
+
+.rectangle-397 {
+    background: #ffc800;
+    width: 13.88px;
+    height: 152.26px;
+    position: absolute;
+    left: 13.88px;
+    top: 501.55px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(-1, 1);
+}
+
+.rectangle-388 {
+    background: #030303;
+    width: 13.88px;
+    height: 152.26px;
+    position: absolute;
+    left: 13.88px;
+    top: 349.29px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(-1, 1);
+}
+
+.frame-6 {
+    background: #ffc800;
+    padding: 14px 20px 14px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    row-gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1100.96px;
+    height: 740.88px;
+    position: absolute;
+    left: 274.14px;
+    top: 267.01px;
+}
+
+.frame-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 1060.2px;
+    position: relative;
+}
+
+.execution {
+    color: #000000;
+    text-align: right;
+    font-family: "Archivo-ExtraBold", sans-serif;
+    font-size: 92.08619689941406px;
+    line-height: 101.5%;
+    letter-spacing: -0.08em;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+    align-self: stretch;
+}
+
+.i-m-up-for {
+    color: #000000;
+    text-align: right;
+    font-family: "Archivo-ExtraBold", sans-serif;
+    font-size: 92.08619689941406px;
+    line-height: 101.5%;
+    letter-spacing: -0.08em;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    height: 93px;
+}
+
+.strategic-thinking-purposeful {
+    color: #000000;
+    text-align: left;
+    font-family: "Archivo-ExtraBold", sans-serif;
+    font-size: 92.08619689941406px;
+    line-height: 101.5%;
+    letter-spacing: -0.08em;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: absolute;
+    left: 12.32px;
+    top: 0px;
+}
