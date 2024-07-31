@@ -4,28 +4,6 @@
     margin: 0 auto;
 }
 
-/* 
-@media (max-width: 1302px) {
-    .custom-container {
-        max-width: 960px;
-    }
-}
-
-@media (max-width: 768px) {
-    .custom-container {
-        max-width: 720px;
-    }
-}
-
-@media (max-width: 480px) {
-    .custom-container {
-        max-width: 100%;
-        padding: 0 10px;
-    }
-} */
-
-
-
 /* dog */
 /* dog */
 /* dog */
@@ -595,4 +573,23 @@ mark {
     padding-left: 6px;
     padding-top: 0%;
     padding-bottom: 0%;
+}
+
+@media (max-width: 1302px) {
+    .custom-container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
 }
