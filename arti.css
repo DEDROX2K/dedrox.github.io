@@ -12,13 +12,14 @@ html {
     border-radius: 5px;
 }
 
+
 .custom-container {
     width: 100%;
     max-width: 1360px;
-    /* Set a maximum width */
     margin: 0 auto;
-    /* Center the container */
 }
+
+
 
 .topnav {
     background-color: black;
@@ -49,6 +50,38 @@ html {
 
 /* End of top black navigation */
 
+.sot {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fec700;
+}
+
+.sottex {
+    color: #fffdec;
+    font-family: "Archivo-ExtraBold", sans-serif;
+    font-size: 150px;
+    line-height: 101.5%;
+    letter-spacing: -0.08em;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 50px;
+
+    text-align: justify;
+
+    display: flex;
+
+}
+
+.arti-thum-tex {
+    color: #ecebe5;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-style: regular;
+    line-height: 101.5%;
+    padding-top: 30px;
+
+}
+
 .lftimg {
     position: fixed;
 }
@@ -71,7 +104,6 @@ html {
     letter-spacing: -0.2rem;
     text-transform: uppercase;
     padding: 10px;
-
 }
 
 .subheading {
@@ -110,4 +142,40 @@ html {
     padding-top: 50px;
     padding-right: 20px;
     padding-left: 10px;
+}
+
+
+@media (max-width: 1360px) {
+    .custom-container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-container {
+        max-width: 720px;
+    }
+
+    .sottex {
+        font-size: 70px;
+    }
+
+    .sot {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-container {
+        max-width: 400px;
+        padding: 0 10px;
+    }
+
+    .sottex {
+        font-size: 60px;
+    }
+
+    .nav-link {
+        font-size: 10px;
+    }
 }
